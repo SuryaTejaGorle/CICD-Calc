@@ -55,7 +55,7 @@ class App extends Component {
             </tr>
             <tr>
               <td></td>
-              <td><button onClick={()=>this.add()}>ADD</button></td> 
+              <button onClick={()=>this.add()}>ADD</button>
               <button onClick={() => this.sub()}>SUB</button>
               <button onClick={() => this.multi()}>MULTI</button>
               <button onClick={() => this.div()}>DIV</button>
